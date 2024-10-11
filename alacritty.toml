@@ -1,0 +1,119 @@
+[env]
+term = "xterm-256color"
+
+[cursor.style]
+blinking = "On"
+shape = "Underline"
+[cursor]
+thickness = 0.20
+
+[font]
+size = 20
+
+
+[font.bold]
+family = "MesloLGS NF"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "MesloLGS NF"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGS NF"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Command"
+action = "ToggleFullscreen"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mods = "Control"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001bb"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001bf"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+decorations = "Full"
+dynamic_padding = false
+startup_mode = "windowed"
+
+[window.dimensions]
+columns = 300
+lines = 60
+
+[window.padding]
+x = 0
+y = 0
+
+[colors]
+[colors.primary]
+background = '#1d1f21'
+foreground = '#c5c8c6'
+
+[colors.normal]
+black = '#1d1f21'
+red = '#cc6666'
+green = '#b5bd68'
+yellow = '#f0c674'
+blue = '#81a2be'
+magenta = '#b294bb'
+cyan = '#8abeb7'
+white = '#c5c8c6'
+
+[colors.bright]
+black = '#666666'
+red = '#d54e53'
+green = '#b9ca4a'
+yellow = '#e7c547'
+blue = '#7aa6da'
+magenta = '#c397d8'
+cyan = '#70c0b1'
+white = '#eaeaea'
+
+
